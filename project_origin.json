@@ -1,0 +1,4 @@
+{
+  "origin_hostname": "DESKTOP-KHB6IE5",
+  "purpose": "Only audit absolute original workspace paths on the preparation machine; copied reference hashes remain portable."
+}

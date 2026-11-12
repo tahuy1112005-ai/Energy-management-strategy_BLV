@@ -1,0 +1,249 @@
+{
+  "files": [
+    {
+      "path": "30days_scenario_02.ipynb",
+      "bytes": 3729452,
+      "sha256": "18b28a2587840a005034e9b28e3029b5782ad553185aefecd4cf3d1d45aba383"
+    },
+    {
+      "path": "battery_cycling_degradation.py",
+      "bytes": 21640,
+      "sha256": "11c12d18801c2ab9b92427a84ba462656622fc46d02c542dab2d51af79968847"
+    },
+    {
+      "path": "environment_snapshot.json",
+      "bytes": 454,
+      "sha256": "60bba6e0effdeb45223c8bbd9687a7c95983a0c0932240bc36d54193e5e60a64"
+    },
+    {
+      "path": "original_integrity_check.json",
+      "bytes": 322,
+      "sha256": "cbe0d91b50ccff7aee8ed8b83cd57ca3c00b46b5852db692fca6649689c8c721"
+    },
+    {
+      "path": "original_integrity_manifest.json",
+      "bytes": 53882,
+      "sha256": "ff6d5f283ccbd8c3b7001e6aa3766392e0d95e4d6092ef7280a40c95af19814b"
+    },
+    {
+      "path": "PREPARATION_REPORT.md",
+      "bytes": 11209,
+      "sha256": "34419933978630ae55ba181f1672dfd3f367e394db273bb796133fc3ad967303"
+    },
+    {
+      "path": "project_origin.json",
+      "bytes": 177,
+      "sha256": "0dc1a2258400afcf8bb9f0b60df943643c3a82c408e763000296d5e01591ae0a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11704,
+      "sha256": "f42d5a36fe9209b574dabe012a8f3748115831159e4673d90b4546cc1e0a53a4"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 185,
+      "sha256": "b77fcbe7f81d473d67d46b6a750191de428e4d047328d0edcb1428ac10e4c10c"
+    },
+    {
+      "path": "run_scenario.py",
+      "bytes": 2546,
+      "sha256": "45261da3252592886f1098b92d2b39c86b32036e78b9bd91f3b2c67ce799dce9"
+    },
+    {
+      "path": "scenario_outputs.py",
+      "bytes": 10419,
+      "sha256": "0917a1e7e0697b0a20b5c401bf28a4b8c8b5bcfd2c8d382198dba82523eac4b6"
+    },
+    {
+      "path": "scenario_project.py",
+      "bytes": 8169,
+      "sha256": "eb9b8dd4eddec1c6d72c8c3d9096abf4b0dccfa4574f8159763ab4eb69db4ae6"
+    },
+    {
+      "path": "scenario_thermal.py",
+      "bytes": 11134,
+      "sha256": "7e9489ca69f496a972501e78739ea1db8fc10c043a7aee49dae6f49d47bffd0b"
+    },
+    {
+      "path": "scenario_weather.py",
+      "bytes": 4600,
+      "sha256": "d2af2363727e9eb4b13b33f8917f385312183255478072e5e4fd5ce354c7c5c1"
+    },
+    {
+      "path": "verify_original_files.py",
+      "bytes": 2262,
+      "sha256": "69faac6084d2ece2a3a4d6d9d232993e761cdee5760c961d06ae953a6990806f"
+    },
+    {
+      "path": "8.2022/01.08.2022.xlsm",
+      "bytes": 3283654,
+      "sha256": "641843684d406177da9538ab6ec5276371baec6c61be6de3a37ec8b98b5581b3"
+    },
+    {
+      "path": "8.2022/02.08.2022.xlsm",
+      "bytes": 3369024,
+      "sha256": "4f867ed369473ad5ab224060c428f7f837cf6e1ff4cd666ce4c8920e34b7f5f2"
+    },
+    {
+      "path": "8.2022/03.08.2022.xlsm",
+      "bytes": 3309925,
+      "sha256": "c48c71a2a1077d64c215568c43855d07999b10786db93b9410701a0ae169bff0"
+    },
+    {
+      "path": "8.2022/04.08.2022.xlsm",
+      "bytes": 3118770,
+      "sha256": "88eb5e5a5c7e5933d7721c139b174e7d4dc86f02cf00884114d9370b13b523ae"
+    },
+    {
+      "path": "8.2022/05.08.2022.xlsm",
+      "bytes": 3365809,
+      "sha256": "c9936c2887cc8df3efc1daa694258807b4371dd3c543f941dd5cb9dc52beddd2"
+    },
+    {
+      "path": "8.2022/06.08.2022.xlsm",
+      "bytes": 3095528,
+      "sha256": "7003a3426c4545b776eb02c612399bab8cc36cf1c95ea92995c973d627499ac1"
+    },
+    {
+      "path": "8.2022/07.08.2022.xlsm",
+      "bytes": 3207920,
+      "sha256": "03ec04951cf33aea3101c5751ea118efb9b99ebe71fa2bbd4e05a7bd1b2011f4"
+    },
+    {
+      "path": "8.2022/08.08.2022.xlsm",
+      "bytes": 3110214,
+      "sha256": "b8527a2d6f091b1167e73b06c285da29cf4b97a2200d2fa2b45d3ec1034b2442"
+    },
+    {
+      "path": "8.2022/09.08.2022.xlsm",
+      "bytes": 3323319,
+      "sha256": "aae4cb0afbc27986de136a1765faeac99f82ef79393e6f4b0d11a50400362f07"
+    },
+    {
+      "path": "8.2022/10.08.2022.xlsm",
+      "bytes": 2844072,
+      "sha256": "d5426d458ff5fdb6cb8cd1d25076f44ea92c2ca6283c36cc3bf232436bc562e6"
+    },
+    {
+      "path": "8.2022/11.08.2022.xlsm",
+      "bytes": 2799972,
+      "sha256": "c61a4c567cac7eff453a0d233fd40433d4be2b504210b536650515bf6d22f5fe"
+    },
+    {
+      "path": "8.2022/12.08.2022.xlsm",
+      "bytes": 2821916,
+      "sha256": "a365e8dc2fbd15bd8f8c65ef4cc7cb0dc43d7c6ea354bcc442529ff49669182f"
+    },
+    {
+      "path": "8.2022/13.08.2022.xlsm",
+      "bytes": 60373,
+      "sha256": "7f1736859c75ed1a5c3eae1ff1cfcc9e48dccac8cfcfe05d82d6342ad85d71f1"
+    },
+    {
+      "path": "8.2022/14.08.2022.xlsm",
+      "bytes": 60289,
+      "sha256": "ac09260c43e5ba7a834cf13b0ec9bc3893a97d144f5f278aea0e2475544c1ad6"
+    },
+    {
+      "path": "8.2022/15.08.2022.xlsm",
+      "bytes": 59941,
+      "sha256": "08d3f411cb818890c2936381e00912d47fd2f2ab93c77dc5aa8e9d86f8377ea8"
+    },
+    {
+      "path": "8.2022/16.08.2022.xlsm",
+      "bytes": 59957,
+      "sha256": "99e21987bdf6093d83bd83e642acf47d72cc35cdd0ad1a950aa870b3e64f8a9a"
+    },
+    {
+      "path": "8.2022/17.08.2022.xlsm",
+      "bytes": 59845,
+      "sha256": "86b9c947aefa8b2eb56f1c6284afe1fbf2ac3618f6c1d54444291a73e483b25e"
+    },
+    {
+      "path": "8.2022/18.08.2022.xlsm",
+      "bytes": 60329,
+      "sha256": "d1185060bbc25a668781c4a555fdbb30b5788489d88b1bc86801fa2f86eba9da"
+    },
+    {
+      "path": "8.2022/19.08.2022.xlsm",
+      "bytes": 60751,
+      "sha256": "2a7e999a948d01c1720f2bfd23360553117912731819f468fb06719692276504"
+    },
+    {
+      "path": "8.2022/20.08.2022.xlsm",
+      "bytes": 60581,
+      "sha256": "b9b37881962b83cff0abca66ce99b3a3a57d2a396f407ac539821655532ca9b5"
+    },
+    {
+      "path": "8.2022/21.08.2022.xlsm",
+      "bytes": 60575,
+      "sha256": "c9d1cda54105d0c90cbde6ea4a33d9259053097a96c637aaf72924cea5b1efd7"
+    },
+    {
+      "path": "8.2022/22.08.2022.xlsm",
+      "bytes": 60735,
+      "sha256": "74a4df98201b000171f3b9a7a2ff7b98843068f4955b121eae6aad7d9e670120"
+    },
+    {
+      "path": "8.2022/23.08.2022.xlsm",
+      "bytes": 61016,
+      "sha256": "69e6d244e077871fbfd4e0b771c0b00d19a906b4bd22c6357a0ab01477058c24"
+    },
+    {
+      "path": "8.2022/24.08.2022.xlsm",
+      "bytes": 60420,
+      "sha256": "2aaaf60a139d2f1aef7ff4c60190ca4530d67700311f22f39a5258c00f83b526"
+    },
+    {
+      "path": "8.2022/25.08.2022.xlsm",
+      "bytes": 60878,
+      "sha256": "6d6252d5298bb40978dc48af81c1afa79d3bc100ad5afafd1321d6c48f5c9ed0"
+    },
+    {
+      "path": "8.2022/26.08.2022.xlsm",
+      "bytes": 60331,
+      "sha256": "964f225ac7fd362b6e36f270d89fe7af5391bb467d44168090fafcc5d3b28524"
+    },
+    {
+      "path": "8.2022/27.08.2022.xlsm",
+      "bytes": 60843,
+      "sha256": "50d9c8588b880a72beff2a2bc41c95b5752a573461bab4185caebf4981f82705"
+    },
+    {
+      "path": "8.2022/28.08.2022.xlsm",
+      "bytes": 61016,
+      "sha256": "5cb5d213da80f6965a3a7938b2764e4eb3888e66a06a6f49c65c95d0ce9f82cc"
+    },
+    {
+      "path": "8.2022/29.08.2022.xlsm",
+      "bytes": 60313,
+      "sha256": "73f5a23fd60982e8a03892c05a1e8fd427d1f3fa81aa98a7edfda3ffe08e3026"
+    },
+    {
+      "path": "8.2022/30.08.2022.xlsm",
+      "bytes": 61030,
+      "sha256": "1e5c2ce8bfdd58830ddc50f235e8c18a98da6d94e3f2e08467d475edf80c6872"
+    },
+    {
+      "path": "8.2022/31.08.2022.xlsm",
+      "bytes": 59052,
+      "sha256": "16b408cfcd42d7b7b79f0c1f09a32918c5fb17ccbffcfc5d82de1148e50371ff"
+    },
+    {
+      "path": "inputs/baseline_thermal_parameters.json",
+      "bytes": 247,
+      "sha256": "79c68744eba78b20ebab2998f263f837354dfa29112e8636ec439f8dd7ca41f9"
+    },
+    {
+      "path": "inputs/reference_ambient_2days.csv",
+      "bytes": 1129,
+      "sha256": "d0806fbeef44530ea38a338cd5244e89155e08b0a92340ff137d2dfd993a9aeb"
+    },
+    {
+      "path": "scenario_plot_style.py",
+      "bytes": 1574,
+      "sha256": "766476f47ca059738dfed06de1886875cc7ea4e0649edb077f4cc70bb837a7ad"
+    }
+  ]
+}

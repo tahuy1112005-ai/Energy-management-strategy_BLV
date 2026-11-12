@@ -1,0 +1,7 @@
+{
+  "status": "SIMULATION_AND_ASSESSMENT_FINISHED",
+  "pmp_executed": true,
+  "cooling_results_available": true,
+  "thermal_duration_h": 720.0,
+  "thermal_step_seconds": 900.0
+}

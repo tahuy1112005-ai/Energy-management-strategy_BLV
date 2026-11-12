@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "signature": "9489924c89deba5fe83bacc4f7c8a2e9132d82a690e169729369b538f0063c79",
+  "result_sha256": "0b2423f9745f1f41c817844579099a145a9c60d73d8421c62b758c045852a878",
+  "report": {
+    "Model": "II",
+    "Status": "SUCCESS",
+    "s1": 0.3,
+    "z1": 0.7,
+    "Iterations": 650,
+    "Penalty_converged": true,
+    "BVP_success": true,
+    "BVP_status": 0,
+    "BVP_message": "The algorithm converged to the desired accuracy.",
+    "BVP_mesh_nodes": 6558,
+    "Me": 0.31901279164776497,
+    "Mp": 0.47468666932230347,
+    "Temperature_weight": 0.0,
+    "Boundary_max_abs_residual": 2.2137489674706112e-23,
+    "Eb_t0": 760.0,
+    "Eb_tf": 760.0,
+    "Eb_target": 760.0,
+    "Input_days": 30,
+    "Samples": 1440,
+    "Horizon_hour": 719.5,
+    "Elapsed_seconds": 11619.312785747,
+    "Result_file": "/app/data/runs/scenario02_ef1b5703b8f6/30days_results/Model_II_results_30days.xlsx",
+    "Action": "SOLVED",
+    "Run_signature": "9489924c89deba5fe83bacc4f7c8a2e9132d82a690e169729369b538f0063c79"
+  }
+}
