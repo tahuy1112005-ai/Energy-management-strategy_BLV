@@ -152,30 +152,5 @@
     "The final half-hour holds the last electrical power and ambient sample.",
     "G*Cp*(T-Ts) retains the original ideal heat-exchange assumption; COP=2 is user-specified and no auxiliary loads are added.",
     "Cycling model retains Xu LMO example coefficients; this is not an LFP calibration."
-  ],
-  "source_integrity": {
-    "original_audit": {
-      "checked_utc": "2026-11-10T15:33:49.784378+00:00",
-      "original_root": "D:\\VScode",
-      "checked_files": 198,
-      "original_files_unchanged": false,
-      "changed_files": [],
-      "missing_files": [
-        "30days_pairs_results_optimized/Pair_01_20220801_20220802/Model_III_results_2days.xlsx",
-        "30days_pairs_results_optimized/Pair_01_20220801_20220802/Model_II_checkpoint.json",
-        "30days_pairs_results_optimized/Pair_01_20220801_20220802/Model_II_results_2days.xlsx",
-        "30days_pairs_results_optimized/Pair_01_20220801_20220802/Model_IV_results_2days.xlsx",
-        "30days_pairs_results_optimized/Pair_01_20220801_20220802/Model_I_checkpoint.json",
-        "30days_pairs_results_optimized/Pair_01_20220801_20220802/Model_I_results_2days.xlsx",
-        "30days_pairs_results_optimized/Pair_01_20220801_20220802/Pair_assessment.xlsx",
-        "30days_pairs_results_optimized/Pair_01_20220801_20220802/Pair_solver_report.xlsx",
-        "30days_pairs_results_optimized/Pair_02_20220803_20220804/Model_I_checkpoint.json",
-        "30days_pairs_results_optimized/Pair_02_20220803_20220804/Model_I_results_2days.xlsx",
-        "30days_pairs_results_optimized/Pair_02_20220803_20220804/Pair_solver_report.xlsx"
-      ],
-      "scope": "All original regular files except generated __pycache__ and .git; SHA-256 baseline before scenario work"
-    },
-    "copied_reference_files_unchanged": true,
-    "changed_reference_copies": []
-  }
+  ]
 }
