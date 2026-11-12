@@ -161,3 +161,50 @@ Two consecutive prepare-only runs succeeded with the same run ID and no PMP exec
 ## Notebook weather-helper reload
 
 Cell 3 explicitly reloads the local weather/project modules and rebinds prepare_weather before reading inputs, so a reused Jupyter kernel cannot keep the obsolete string-comparison guard. The complete cell was verified against run scenario02_3901efcb6cd0 with a deliberately stale alias; 1440 samples loaded and existing CSV bytes were unchanged.
+
+
+## Source consolidation (2026-11-12)
+
+The eight former Python scripts were consolidated into `bess_pipeline.py`.
+Their old names in this document describe historical preparation only.
+Notebook cells 2 (PMP declarations) and 4 (solver/resume) were retained byte
+for byte. Parameter assignments and assessment/report calculations were
+preserved; imports and the source-file inventory were adapted to one module.
+
+Validation completed before removing old scripts:
+- All 31 function/class ASTs match the original implementations after removing
+  sibling imports and normalizing only the source-file inventory assignment.
+- Exact before/after equality for generated weather and four models' thermal
+  nodes, interval/daily cooling energy, rainflow, cycling damage, loss and SOH.
+- All seven notebook cells executed in an isolated temporary copy with only
+  `bess_pipeline.py`; four saved model files loaded and zero BVP calls.
+- Existing monthly, daily, selected-day, ranking and cooling tables matched.
+- All existing run-file hashes and all recorded original-workspace file states
+  stayed unchanged. The temporary validation copy and obsolete scripts/caches
+  were removed. No production output was regenerated during consolidation.
+
+Run the notebook after restarting its kernel, or use
+`python bess_pipeline.py --prepare-only`, `--run`, or `--audit`.
+
+
+## JSON consolidation (2026-11-12)
+
+Six configuration/provenance JSON documents were merged into
+`project_metadata.json`; named sections retain the original document values.
+The source-file inventory was refreshed and excludes the metadata file itself
+from its own checksum list. `merged_json_sources` preserves the old hashes.
+All original-project references and guarded thermal parameter units/values
+were retained. The notebook file itself was not changed.
+
+Validation used an isolated copy containing only the merged project JSON:
+- Notebook cells 1-4 loaded 1440 weather samples and four existing model Excel
+  files without a BVP call; all four frozen pack-parameter guards still reject
+  changes. The final audit cell passed the copied-input checks.
+- The CLI audit updates only its report section, preserving all other data.
+- A controlled atomic-write failure preserved the complete metadata file and
+  cleaned its pending file.
+- All existing run files and recorded original-workspace file states remained
+  byte-identical. Numerical/plot functions were not modified.
+
+The six obsolete JSON files and temporary validation copy were removed.
+JSON files in `runs/` remain separate and unchanged.
